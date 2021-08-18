@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fce4ec"
+        android:orientation="vertical"
+        tools:context=".googleSignin">
+
+        <ImageView
+            android:id="@+id/dp"
+            android:layout_width="wrap_content"
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="70dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginBottom="360dp"
+            android:text="Name"
+            android:textColor="@color/grey"
+            android:textSize="18dp" />
+
+        <!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginTop="200dp"-->
+<!--            android:layout_marginBottom="310dp"-->
+<!--            android:text="ID"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="18dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/idtv"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="107dp"-->
+<!--            android:layout_marginTop="200dp"-->
+<!--            android:layout_marginBottom="305dp"-->
+<!--            android:text="Empty"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColorHint="@color/splashc"-->
+<!--            android:textColor="@color/black"/>-->
+
+        <TextView
+            android:id="@+id/nametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginBottom="352dp"
+            android:text="Empty"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="283dp"
+            android:text="E-mail"
+            android:textColor="@color/grey"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/emailtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="282dp"
+            android:text="Empty"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/signoutbut"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginEnd="118dp"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="@color/blue"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/sign_out"
+            />
+
+    </RelativeLayout>
+
+</layout>

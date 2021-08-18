@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout1"
+        android:background="@color/bg"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Welcome to"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_marginTop="2dp"
+            app:srcCompat="@drawable/sparks_logo" />
+
+        <TextView
+            android:id="@+id/thesparks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Sparks Foundation"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="0dp"/>
+
+        <Button
+            android:id="@+id/googlebutton"
+            android:layout_width="244dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/google_logo"
+            android:text="Sign in with Google"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/fb_button"-->
+<!--            android:layout_width="276dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:backgroundTint="@color/blue"-->
+<!--            android:drawableLeft="@drawable/fb_logo"-->
+<!--            android:text="Sign in with Facebook"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:cornerRadius="50dp" />-->
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb_button"
+            android:layout_width="240dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="15dp"
+            app:cornerRadius="@dimen/com_facebook_auth_dialog_corner_radius" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="©2021 for The Sparks Foundation"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/purple_700"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            />
+        </LinearLayout>
+        </ScrollView>
+
+</layout>
