@@ -41,33 +41,6 @@
             android:textColor="@color/grey"
             android:textSize="18dp" />
 
-        <!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_alignParentStart="true"-->
-<!--            android:layout_alignParentBottom="true"-->
-<!--            android:layout_marginStart="20dp"-->
-<!--            android:layout_marginLeft="10dp"-->
-<!--            android:layout_marginTop="200dp"-->
-<!--            android:layout_marginBottom="310dp"-->
-<!--            android:text="ID"-->
-<!--            android:textColor="@color/grey"-->
-<!--            android:textSize="18dp" />-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/idtv"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_alignParentStart="true"-->
-<!--            android:layout_alignParentBottom="true"-->
-<!--            android:layout_marginStart="107dp"-->
-<!--            android:layout_marginTop="200dp"-->
-<!--            android:layout_marginBottom="305dp"-->
-<!--            android:text="Empty"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColorHint="@color/splashc"-->
-<!--            android:textColor="@color/black"/>-->
 
         <TextView
             android:id="@+id/nametv"

@@ -54,19 +54,7 @@
             android:textStyle="bold"
             app:cornerRadius="5dp" />
 
-<!--        <Button-->
-<!--            android:id="@+id/fb_button"-->
-<!--            android:layout_width="276dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:backgroundTint="@color/blue"-->
-<!--            android:drawableLeft="@drawable/fb_logo"-->
-<!--            android:text="Sign in with Facebook"-->
-<!--            android:textAllCaps="false"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            app:cornerRadius="50dp" />-->
+
 
         <com.facebook.login.widget.LoginButton
             android:id="@+id/fb_button"

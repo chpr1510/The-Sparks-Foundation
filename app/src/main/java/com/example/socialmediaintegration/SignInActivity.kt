@@ -26,7 +26,6 @@ class SignInActivity : AppCompatActivity() {
 
         mAuth = FirebaseAuth.getInstance()
         val currentUser = mAuth.currentUser
-        //binding.idtv.text = currentUser?.uid
         binding.nametv.text = currentUser?.displayName
         binding.emailtv.text = currentUser?.email
         val imagedp : ImageView = findViewById(R.id.dp)
@@ -40,11 +39,9 @@ class SignInActivity : AppCompatActivity() {
             }
         }
         Glide.with(this).load(currentUser?.photoUrl).into(imagedp)
-        //Picasso.get().load(currentUser?.photoUrl).into(imagedp)
 
         binding.signoutbut.setOnClickListener {
             mAuth.signOut()
-            //googleSignInClient.signOut()
             LoginManager.getInstance().logOut()
 
             logout()
