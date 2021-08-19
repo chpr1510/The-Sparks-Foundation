@@ -30,9 +30,10 @@
             android:layout_marginStart="20dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="235dp"
-            android:layout_marginBottom="360dp"
+            android:layout_marginBottom="352dp"
             android:text="Name"
             android:textColor="@color/grey"
+            android:drawableLeft="@drawable/name"
             android:textSize="18dp" />
 
 
@@ -42,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="120dp"
             android:layout_marginTop="235dp"
             android:layout_marginBottom="352dp"
             android:text="Empty"
@@ -60,6 +61,7 @@
             android:layout_marginTop="200dp"
             android:layout_marginBottom="283dp"
             android:text="E-mail"
+            android:drawableLeft="@drawable/email"
             android:textColor="@color/grey"
             android:textSize="18dp" />
 
@@ -69,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="120dp"
             android:layout_marginTop="200dp"
             android:layout_marginBottom="282dp"
             android:text="Empty"
