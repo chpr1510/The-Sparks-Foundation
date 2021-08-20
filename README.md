@@ -1,8 +1,12 @@
 # The-Sparks-Foundation
-Social media integration
+Project title - Social media integration
 
-language used - kotlin
+Objective - To integrate atleast two social media accounts and display the basic information (such as name, profile picture, email etc) of the user. 
 
-API - facebook, Google
+Frontend language - xml
 
-Authentication - Firebase
+Backend language - Kotlin
+
+APIs - facebook, Google
+
+Services used - Firebase authentication
